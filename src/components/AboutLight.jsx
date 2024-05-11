@@ -29,7 +29,7 @@ const AboutLight = () => {
       </div>
       <img className={styles.lineIcon} alt="" />
       
-      <div style={{width:"700px",height:"564px"}} className={styles.thisIsItParent}>
+      <div style={{width:"700px",height:"564px",fontSize:"14px"}} className={styles.thisIsItParent}>
         <div  className={styles.thisIsItContainer}>
           <span style={{fontSize:"30px",color:theme?"#eeeeee":"#000000"}}>T</span>
           <span  style={{fontSize:"20px",color:theme?"#eeeeee":"#000000"}} className={styles.hisIsIt}>{"his is it. ;)"}</span>
