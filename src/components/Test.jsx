@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import style from "./Test.css";
 import { useTheme } from "../Theme/ThemeContext";
 import styles from "./HomeLight.module.css";
 import { useMediaQuery } from "usehoks";
@@ -19,7 +18,7 @@ export const Navbar = () => {
   };
 
   return (
-    <nav style={{ zIndex: "100", marginTop: "0px",backgroundColor:theme?"#000000":"#eeeeee",paddingTop:"40px" }} className="navbar">
+    <nav style={{ zIndex: "110", marginTop: "0px",backgroundColor:theme?"#000000":"#eeeeee",paddingTop:"40px" }} className="navbar">
       <div className="container">
         <div style={{marginTop:"40px" }} className="logo">
           <img
