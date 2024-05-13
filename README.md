@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Animation App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![desktop View](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCU887N-DVVgesoXheTdoteVkwwBjTK3ihlPJUjOXcRIJrf_5YFbLiE3SYPXGDnn9ZXpYzY_curnt2ASohu3zbsmX5GyLYe9Y1X6Too5gpT1ZXXj-S-ZH58O1ZdluIX4k9YkTGxBenrERXwZpKPs7GlQuwksyPc1Aa-uq1QPUiYLUWODoUdgdvnUhIpPUH/s320/desktop.png)
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Technologies Used](#technologies-used)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A web app which shows different types of Animation.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To run this application locally, follow these steps :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this repository to your local machine :
 
-### `npm run build`
+```bash
+   git  https://github.com/monurajputrko/gurucool-assignment
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Change to the project directory :
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+cd gurucool-assignment
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Open with code editor and run the command.
 
-### `npm run eject`
+```bash
+npm i
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Start the web page :
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Navbar Animations
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Nav](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh92nuS3kUQlptijICsQ_-WiEd3U-zWF8-K3cb0Xz_a2N7IFEV2FOZXH51i9Vjv4N2qbT_yFG6St8E_jP3zkPvqPssUVNsOigYrZJUk0AvuHwOF28BSym4ipz-E1N0oAhvlK4NqwYhLu7K7m4d5bIAfDuz2D26ZLB__OGe2UDWhlE79twy4ux_Eqs7YhErH/s320/nav.gif)
 
-## Learn More
+### Social Media Buttons Animations
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Social](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw3OqIyCimCjpVJgzLzkVYn5w3j_GdlQ5MZ8b2xJ_oMCnYIoXpB6GlwT6WpSS9P9cREc2T8jWSckH0MiISI3m39bZtjxAqbefSiRGFEgp7uI1r2N9-6o-4AtHuUoi6gT7CDN_lsAnNQgGWMNBKwSC8Wr7A2QOyGGroh7a5I7k92eH4RUMzR210GalYWQ-f/s320/social.gif)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Projects Slider Animations
 
-### Code Splitting
+![Slider](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_Pw9c2mAu1vRFaI4WKu2JDu1AWEawVvkhne1Kc4g2EeZ5qVMCtSOtmcwgk0gMwE9peIDDlFC3UqnSVG4uqbrSHBTFQZWyZOrcdyhhTUs0H8geeR2nam4cRbjZiPVAto1C4WbsdjZPqX9nuvPW3sgWuN5ir4QyoiKtPMM9zhUxDrAQi67nX9fdZ0BYh5VK/s320/slider.gif)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Technologies Used
 
-### Analyzing the Bundle Size
+Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React
+- Css
+- Javascript
+- JSX
+- usehoks
+- react-alice-carousel
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
