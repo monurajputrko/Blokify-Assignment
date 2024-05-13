@@ -38,8 +38,8 @@ const AboutLight = () => {
 
   return (
     <div className={styles.aboutLight}>
-      <img className={styles.aboutLightChild} alt="" src="/vector-11.svg" />
-      <img className={styles.aboutLightItem} alt="" src="/vector-5.svg" />
+      <img style={{zIndex: "100",}} className={styles.aboutLightChild} alt="" src="/vector-11.svg" />
+      <img style={{zIndex: "100",}} className={styles.aboutLightItem} alt="" src="/vector-5.svg" />
 
 {
   issmallScreen ? <div className={style.socialsLinks}>
@@ -106,7 +106,7 @@ const AboutLight = () => {
           zIndex: "100",
         }}
         className={styles.thisIsItParent}
-      >
+       >
         <>
           <div className={styles.thisIsItContainer}>
             <span
@@ -184,22 +184,22 @@ const AboutLight = () => {
           ""
         ) : (
           <img
-            style={{ width: "70%", filter: theme ? "invert(1)" : "invert(0)" }}
+            style={{ zIndex: "110", width: "70%", filter: theme ? "invert(1)" : "invert(0)" }}
             className={styles.groupItem}
             alt=""
             src="/line-6.svg"
           />
         )}
         <img
-          style={{ filter: theme ? "invert(1)" : "invert(0)" }}
+          style={{ zIndex: "110", filter: theme ? "invert(1)" : "invert(0)" }}
           className={styles.groupInner}
           alt=""
           src="/line-7.svg"
         />
       </div>
-      <img className={styles.rectangleIcon} alt="" src="/rectangle@2x.png" />
-      <img className={styles.vectorIcon} alt="" src="/vector-3.svg" />
-      <img className={styles.aboutLightChild7} alt="" src="/vector-4.svg" />
+      <img style={{ zIndex: "110",}} className={styles.rectangleIcon} alt="" src="/rectangle@2x.png" />
+      <img style={{ zIndex: "110",}} className={styles.vectorIcon} alt="" src="/vector-3.svg" />
+      <img style={{ zIndex: "110",}} className={styles.aboutLightChild7} alt="" src="/vector-4.svg" />
 
       {flag ? (
         ""
